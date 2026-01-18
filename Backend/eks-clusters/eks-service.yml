@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: news-app
-  type: LoadBalancer                     # ClusterIP, NodePort, LoadBalancer, ExternalName
+  type: LoadBalancer                     
   #  sessionAffinity: ClientIP
   ports:
   - protocol: TCP
